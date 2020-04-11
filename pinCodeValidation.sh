@@ -3,7 +3,7 @@
 #TAKING PINCODE INPUT
 read -p "Enter Pincode Number :  " pincode
 
-patternPincode="^[0-9]{6}$"
+patternPincode="^[0-9A-Z]{6}$"
 
 if [[ $pincode =~ $patternPincode ]]
 then
